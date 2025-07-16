@@ -51,7 +51,7 @@ def grouper(items, total_groups: int):
         start += current_size
 
     return groups
-	
+
 
 @pytest.hookimpl(trylast=True)
 def pytest_collection_modifyitems(config, items):
