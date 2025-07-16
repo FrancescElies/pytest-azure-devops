@@ -31,6 +31,9 @@ def grouper(items, total_groups: int):
 
     >>> grouper([1,2,3,4,5,6,7,8], 8)
     [[1], [2], [3], [4], [5], [6], [7], [8]]
+
+    >>> grouper([1,2,3,4,5,6,7,8, 9], 4)
+    [[1, 2, 3], [4, 5], [6, 7], [8, 9]]
     """
     if total_groups <= 0:
         raise ValueError(f"total_groups should be bigger than zero but got {total_groups}")
