@@ -2,8 +2,6 @@
 
 import os
 import pytest
-from itertools import zip_longest
-from math import ceil
 
 
 def grouper(items, total_groups: int):
